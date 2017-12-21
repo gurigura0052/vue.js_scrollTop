@@ -1,13 +1,10 @@
 # vue_scroll
-
+https://gurigura0052.github.io/vue.js_scrollTop
 
 ## vue-cliインストール
 ```
-# vue-cli をインストール
 $ npm install --global vue-cli
-# "webpack" ボイラープレートを使用した新しいプロジェクトを作成する
 $ vue init webpack my-project
-# 依存関係をインストールしてgo!
 $ cd my-project
 $ npm install
 $ npm run dev
@@ -19,7 +16,7 @@ $ npm install jquery
 ```
 
 ## Build Setup
-
+- ビルド前に **config/index.js** の **assetsPublicPath** を **'./'** に変更
 ``` bash
 # install dependencies
 npm install
