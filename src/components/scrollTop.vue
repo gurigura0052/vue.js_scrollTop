@@ -21,11 +21,11 @@
 </script>
 
 <style scoped>
-  .scrollBtn{
-    display: block;
-    height: 50px;
-    width: 50px;
-    position: fixed;
-    bottom: 0;
-  }
+.scrollBtn{
+  display: block;
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  bottom: 0;
+}
 </style>

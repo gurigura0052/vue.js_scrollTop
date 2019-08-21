@@ -3,29 +3,28 @@
     <header id="top">
       #top
     </header>
-    <router-view/>
     <scroll-top/>
   </div>
 </template>
 
 <script>
-  import Vue from 'vue'
-  import scrollTop from './components/lib/scrollTop'
+import Vue from 'vue'
+import scrollTop from '@/components/scrollTop'
 
-  Vue.component('scroll-top', scrollTop)
+Vue.component('scroll-top', scrollTop)
 
-  export default {
-    name: 'app'
-  }
+export default {
+  name: 'app'
+}
 </script>
 
 <style>
-  html{
-    height: 100%;
-  }
-  body{
-    height: 200%;
-  }
+html{
+  height: 100%;
+}
+body{
+  height: 200%;
+}
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
